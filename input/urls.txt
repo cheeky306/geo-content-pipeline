@@ -1,0 +1,5 @@
+# GEO Content Pipeline — Source URLs
+# Add one URL per line. Lines starting with # are ignored.
+# Example:
+# https://example.com/article-about-geo
+# https://research-paper.pdf

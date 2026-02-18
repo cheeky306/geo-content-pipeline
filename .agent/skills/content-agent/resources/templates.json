@@ -1,0 +1,468 @@
+{
+  "blog_contract": {
+    "name": "Blog Minimum Structure",
+    "description": "Required sections for all blog posts",
+    "sections": [
+      {
+        "section": "TL;DR",
+        "format": "3–6 bullet points",
+        "purpose": "Scannable summary extracted for AI Overview"
+      },
+      {
+        "section": "Quick Answer",
+        "format": "2–4 sentences",
+        "purpose": "Direct answer to main question; assumes no prior knowledge"
+      },
+      {
+        "section": "Body Sections (H2)",
+        "format": "3–6 H2 sections",
+        "rule": "Each H2 opens with direct answer sentence",
+        "requirement": "Answer-first sentences must be standalone"
+      },
+      {
+        "section": "Chunking",
+        "requirement": "H2/H3 every 200–400 words",
+        "purpose": "Scannable, extractable structure"
+      },
+      {
+        "section": "Table or Checklist",
+        "requirement": "At least one per post",
+        "purpose": "Actionable, extractable reference"
+      },
+      {
+        "section": "Common Mistakes",
+        "format": "3–5 specific mistakes with corrections",
+        "purpose": "Anticipate reader errors"
+      },
+      {
+        "section": "FAQs",
+        "format": "3–6 real reader questions",
+        "requirement": "Answers 2–3 sentences; no body repetition"
+      },
+      {
+        "section": "Sources",
+        "format": "Numbered list: Author/Org — Title (Year)",
+        "requirement": "Every claim cited or labeled"
+      },
+      {
+        "section": "Pillar Link",
+        "format": "Contextual link to /resources/guides/[pillar-slug]/",
+        "placement": "At end of FAQs or final section"
+      }
+    ]
+  },
+  "guide_contract": {
+    "name": "Guide Minimum Structure",
+    "description": "Required sections for all guides",
+    "sections": [
+      {
+        "section": "TL;DR",
+        "format": "3–6 bullet points",
+        "purpose": "Scannable summary"
+      },
+      {
+        "section": "Quick Answer / Definition",
+        "format": "Clear definition of core concept",
+        "purpose": "Foundation for deeper sections"
+      },
+      {
+        "section": "Body Sections (H2)",
+        "format": "6–10 H2 sections",
+        "rule": "Progressive complexity; foundational early, advanced late"
+      },
+      {
+        "section": "Framework Table",
+        "requirement": "At least one comprehensive framework or reference table",
+        "purpose": "Reference material for readers"
+      },
+      {
+        "section": "FAQs",
+        "format": "3–6 questions"
+      },
+      {
+        "section": "Sources",
+        "format": "Numbered list with full citations"
+      }
+    ]
+  },
+  "citation_format": {
+    "name": "Citation Standards",
+    "default": "author + year (narrative style)",
+    "formats": [
+      {
+        "type": "Direct Quotation",
+        "pattern": "\"Exact wording...\" Author/Organization, Year",
+        "max_length": "25 words",
+        "example": "\"AI agents evaluate product attributes in sequence\" (2024). With link to source."
+      },
+      {
+        "type": "Inline (Preferred)",
+        "pattern": "...according to Source Name (Year). With link.",
+        "example": "...according to Google Search Console (2024). [linked text]"
+      },
+      {
+        "type": "Statistics",
+        "pattern": "X% [statistic] according to [Author/Org] ([Year])",
+        "example": "60% of merchants use WooCommerce according to W3Techs (2024)"
+      },
+      {
+        "type": "Best Practices",
+        "pattern": "[Org/Author] recommends [practice] ([Year])",
+        "example": "Google Search Console recommends keyword-driven page titles (2023)"
+      },
+      {
+        "type": "Research Findings",
+        "pattern": "A [Study/Report] found that [finding] ([Author], [Year])",
+        "example": "A study by Content Marketing Institute found that data-driven content performs 3x better (2023)"
+      },
+      {
+        "type": "Platform Policies",
+        "pattern": "According to [Platform] policy ([Year]), [statement]",
+        "example": "According to OpenAI usage policy (2024), AI training on user content is opt-in"
+      }
+    ]
+  },
+  "tag_taxonomy": {
+    "name": "Tag & Taxonomy Rules",
+    "rules": [
+      {
+        "requirement": "Exactly one content type tag",
+        "options": ["#blog", "#guide", "#tool", "#template"]
+      },
+      {
+        "requirement": "Exactly one topic tag",
+        "options": ["geo", "aeo", "ai-seo", "ai-citations", "eeat-ai"]
+      },
+      {
+        "requirement": "Exactly one pillar tag (for blogs)",
+        "options": ["#p-geo", "#p-aeo", "#p-ai-seo", "#p-ai-citations", "#p-eeat-ai"]
+      },
+      {
+        "requirement": "Slug format",
+        "rules": ["Lowercase only", "Hyphenated (no spaces)", "No dates"]
+      }
+    ]
+  },
+  "qa_checklist": {
+    "name": "Editorial QA Checklist",
+    "checks": [
+      {
+        "category": "Structural Completeness",
+        "items": [
+          "All H2 sections from outline present",
+          "TL;DR with 3–6 bullets",
+          "Quick Answer (2–4 sentences)",
+          "All required sections present",
+          "Word count within 10% of target"
+        ]
+      },
+      {
+        "category": "Paragraph Length",
+        "items": [
+          "No paragraph exceeds 4 lines",
+          "Each paragraph: single idea"
+        ]
+      },
+      {
+        "category": "Taxonomy & Tags",
+        "items": [
+          "Exactly one content type tag",
+          "Exactly one topic tag",
+          "Exactly one pillar tag",
+          "Tags correctly formatted"
+        ]
+      },
+      {
+        "category": "Citations & Sources",
+        "items": [
+          "All statistics cited",
+          "All best practices cited or labeled [Verified]",
+          "No [Needs source] labels remaining",
+          "Sources list numbered and formatted",
+          "Direct quotes ≤25 words"
+        ]
+      },
+      {
+        "category": "Internal Links",
+        "items": [
+          "Pillar link placeholder present",
+          "All internal links correct format",
+          "No broken links (404s)"
+        ]
+      },
+      {
+        "category": "Consistency",
+        "items": [
+          "Terminology consistent throughout",
+          "Tone consistent throughout",
+          "Formatting consistent in tables/lists"
+        ]
+      },
+      {
+        "category": "GEO Compliance",
+        "items": [
+          "Answer-first sentence in each H2/H3",
+          "Chunking every 200–400 words",
+          "Tables/lists extraction-ready",
+          "Key terms defined once and reused"
+        ]
+      }
+    ]
+  },
+  "ghost_publishing_card": {
+    "name": "Ghost Publishing Card Template",
+    "fields": [
+      {
+        "field": "Title",
+        "requirement": "Final approved title"
+      },
+      {
+        "field": "Slug",
+        "requirement": "Lowercase, hyphenated, no dates"
+      },
+      {
+        "field": "Excerpt",
+        "requirement": "155–160 characters, meta-description ready"
+      },
+      {
+        "field": "Tags",
+        "requirement": "Content type, topic, pillar (comma-separated)"
+      },
+      {
+        "field": "Feature Image",
+        "requirements": ["Dimensions: 1200×675px", "Style: photography/illustration/diagram", "Alt text provided"]
+      },
+      {
+        "field": "Canonical URL",
+        "pattern": "/blog/[slug]/ or /resources/guides/[pillar]/[slug]/"
+      },
+      {
+        "field": "Pre-Publish Checklist",
+        "items": [
+          "Final draft reviewed for typos",
+          "All inline citations link to live sources",
+          "All internal links verified",
+          "Markdown previewed in Ghost",
+          "Mobile rendering checked",
+          "Feature image optimized",
+          "All placeholder links resolved"
+        ]
+      },
+      {
+        "field": "Post-Publish Checklist",
+        "items": [
+          "URL is live and accessible",
+          "All internal links working",
+          "TOC rendering correctly",
+          "TL;DR extracted/highlighted properly",
+          "Social card preview correct",
+          "Featured image displays at full resolution",
+          "Mobile layout readable",
+          "Google Search Console shows indexing (24 hours)"
+        ]
+      }
+    ]
+  },
+  "maintenance_schedule": {
+    "name": "Content Maintenance Schedule Template",
+    "fields": [
+      {
+        "field": "Review Date",
+        "volatility_mapping": {
+          "High": "Every 3 months",
+          "Medium": "Every 6–12 months",
+          "Low": "Annually or as-needed"
+        }
+      },
+      {
+        "field": "Volatile Sections",
+        "tracking": ["Section title", "Specific claim", "Volatility level", "Refresh trigger"]
+      },
+      {
+        "field": "Source Dependencies",
+        "tracking": ["Source name", "External or internal", "Last updated", "Risk level", "Action plan"]
+      },
+      {
+        "field": "Related Content",
+        "tracking": ["Pieces that reference this content", "Update dependency if major changes"]
+      },
+      {
+        "field": "Performance Metrics",
+        "tracked_metrics": ["Monthly traffic", "Bounce rate", "Time on page", "Search ranking position"],
+        "review_frequency": "Quarterly (every 3 months)",
+        "decay_trigger": "Traffic decline >30%, bounce rate >70%, ranking drop >20 positions"
+      },
+      {
+        "field": "Refresh Decision Matrix",
+        "questions": [
+          "Are any claims outdated?",
+          "Has competitive content been published?",
+          "Has performance declined?",
+          "Is research available that contradicts claims?",
+          "Have source links changed or broken?"
+        ]
+      }
+    ]
+  },
+  "blog_post_template": {
+    "template_name": "Handshake Blog Post (GEO/AEO)",
+    "template_version": "1.0.0",
+    "content_type": "blog",
+    "ghost": {
+      "post_type": "post",
+      "settings": {
+        "title": "{{TITLE}}",
+        "slug": "{{SLUG}}",
+        "excerpt": "{{EXCERPT}}",
+        "authors": [
+          "{{AUTHOR_NAME}}"
+        ],
+        "feature_image": {
+          "required": true,
+          "spec": {
+            "size_px": "1200x630",
+            "format": "jpg",
+            "naming": "{{SLUG}}-cover.jpg",
+            "alt_text": "{{FEATURE_IMAGE_ALT}}"
+          }
+        },
+        "tags": {
+          "internal": [
+            "#blog",
+            "{{PILLAR_MAPPING_TAG}}"
+          ],
+          "public": [
+            "{{TOPIC_TAG}}"
+          ],
+          "rules": {
+            "exactly_one_topic_tag": true,
+            "exactly_one_pillar_mapping_tag": true,
+            "allowed_topic_tags": [
+              "geo",
+              "aeo",
+              "ai-seo",
+              "ai-citations",
+              "eeat-ai"
+            ],
+            "allowed_pillar_mapping_tags": [
+              "#p-geo",
+              "#p-aeo",
+              "#p-ai-seo",
+              "#p-ai-citations",
+              "#p-eeat-ai"
+            ]
+          }
+        }
+      },
+      "routing_expectations": {
+        "canonical_route": "/blog/{{SLUG}}/",
+        "must_404_on": [
+          "/resources/guides/{{SLUG}}/"
+        ],
+        "type_enforcement": {
+          "required_internal_tag": "#blog",
+          "disallowed_internal_tags": [
+            "#guide",
+            "#tool",
+            "#template",
+            "#case-study"
+          ]
+        }
+      }
+    },
+    "seo": {
+      "primary_keyword": "{{PRIMARY_KEYWORD}}",
+      "secondary_keywords": [
+        "{{SECONDARY_KEYWORD_1}}",
+        "{{SECONDARY_KEYWORD_2}}"
+      ],
+      "meta_title_hint": "{{TITLE}}",
+      "meta_description_hint": "{{EXCERPT}}"
+    },
+    "geo_aeo_requirements": {
+      "must_have": [
+        "TL;DR section with bullets",
+        "Quick Answer section (2–4 sentences)",
+        "Chunked H2/H3 structure",
+        "At least one table OR checklist",
+        "Common mistakes section",
+        "FAQs (3–6)",
+        "Sources section",
+        "Pillar link section (Related: Full framework)"
+      ],
+      "writing_constraints": {
+        "max_paragraph_lines": 4,
+        "no_unsourced_numbers": true,
+        "no_fake_quotes_or_sources": true,
+        "quotes_max_words": 25,
+        "avoid_fluff_openers": true
+      }
+    },
+    "markdown_template": "# {{TITLE}}\n\n## TL;DR\n- {{TLDR_BULLET_1}}\n- {{TLDR_BULLET_2}}\n- {{TLDR_BULLET_3}}\n\n## Quick Answer\n{{QUICK_ANSWER_2_4_SENTENCES}}\n\n## Why this matters\n{{CONTEXT_WHO_IT_IMPACTS_AND_WHY}}\n\n## {{H2_1_TITLE}}\n{{H2_1_DIRECT_ANSWER_SENTENCE}}\n\n{{H2_1_BODY}}\n\n### {{H3_1A_TITLE}}\n{{H3_1A_BODY}}\n\n> \"{{QUOTE_1}}\" — {{QUOTE_1_SOURCE}}, {{QUOTE_1_YEAR}}\n\n## {{H2_2_TITLE}}\n{{H2_2_DIRECT_ANSWER_SENTENCE}}\n\n{{H2_2_BODY}}\n\n{{OPTIONAL_TABLE_BLOCK}}\n\n## {{H2_3_TITLE}}\n{{H2_3_DIRECT_ANSWER_SENTENCE}}\n\n{{H2_3_BODY}}\n\n## Practical checklist\n- {{CHECKLIST_ITEM_1}}\n- {{CHECKLIST_ITEM_2}}\n- {{CHECKLIST_ITEM_3}}\n- {{CHECKLIST_ITEM_4}}\n\n## Common mistakes\n1. {{MISTAKE_1}}\n2. {{MISTAKE_2}}\n3. {{MISTAKE_3}}\n\n## Frequently Asked Questions\n### {{FAQ_Q1}}\n{{FAQ_A1}}\n\n### {{FAQ_Q2}}\n{{FAQ_A2}}\n\n### {{FAQ_Q3}}\n{{FAQ_A3}}\n\n## Related: Full framework\nFor the complete framework, read our guide to **{{PILLAR_GUIDE_NAME}}**.\n\n(Internal link: /resources/guides/{{PILLAR_GUIDE_SLUG}}/)\n\n## Sources\n- {{SOURCE_1}}\n- {{SOURCE_2}}\n- {{SOURCE_3}}\n",
+    "optional_blocks": {
+      "table_example": "| Dimension | SEO | AEO | GEO |\n|---|---|---|---|\n| Primary goal | Rank pages | Extract answers | Be cited |\n| Main output | Links | Snippets | Generated responses |\n",
+      "figure_guidance": {
+        "inline_images": {
+          "recommended_count": "1-3",
+          "types": [
+            "annotated screenshot",
+            "diagram",
+            "chart"
+          ],
+          "file_naming": "{{SLUG}}-{{short-description}}.png",
+          "alt_text_rule": "Describe what the image shows; no keyword stuffing."
+        }
+      }
+    },
+    "human_in_loop_checkpoints": {
+      "checkpoint_1_outline": {
+        "review": [
+          "title/angle",
+          "H2/H3 coverage",
+          "missing sections",
+          "avoid fluff"
+        ],
+        "decision": [
+          "approve",
+          "revise"
+        ]
+      },
+      "checkpoint_2_draft": {
+        "review": [
+          "TL;DR quality",
+          "Quick Answer clarity",
+          "generic sections",
+          "actionability"
+        ],
+        "decision": [
+          "approve",
+          "revise"
+        ]
+      },
+      "checkpoint_3_evidence": {
+        "review": [
+          "sources credibility",
+          "quotes accuracy",
+          "remove/label unsourced claims"
+        ],
+        "decision": [
+          "approve",
+          "revise"
+        ]
+      },
+      "checkpoint_4_pre_publish": {
+        "review": [
+          "tags correct",
+          "excerpt set",
+          "feature image set",
+          "internal pillar link present",
+          "no broken links"
+        ],
+        "decision": [
+          "publish",
+          "hold"
+        ]
+      }
+    }
+  }
+}
