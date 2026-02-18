@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">GEO Content Pipeline</h1>
   <p align="center">
-    <strong>The open-source content engine built for AI search.</strong><br>
+    <strong>🚀 The open-source content engine built for AI search.</strong><br>
     Evidence-backed. GEO-optimized. Human-governed.
   </p>
   <p align="center">
@@ -21,7 +21,7 @@
 
 ---
 
-## What This Does
+## ⚡ What This Does
 
 ```
 URLs + Documents  ──►  Knowledge Ledger  ──►  10-Step Pipeline  ──►  Publish-Ready Content
@@ -32,7 +32,7 @@ Drop your research URLs and documents into `input/`. The pipeline scrapes, score
 
 ---
 
-## Why This Exists
+## 🎯 Why This Exists
 
 Content for AI search is a different game. Traditional SEO content — keyword-stuffed, opinion-heavy, lightly sourced — gets filtered out by generative engines. To earn citations in AI-generated answers, content needs to be:
 
@@ -44,13 +44,13 @@ This pipeline enforces all three. Systematically. Every time.
 
 ---
 
-## What Makes This Different
+## 🏆 What Makes This Different
 
 <table>
 <tr>
 <td width="50%">
 
-### Typical AI Content Tools
+### ❌ Typical AI Content Tools
 
 - Generate content from prompts
 - No source verification
@@ -61,7 +61,7 @@ This pipeline enforces all three. Systematically. Every time.
 </td>
 <td width="50%">
 
-### GEO Content Pipeline
+### ✅ GEO Content Pipeline
 
 - Generate from YOUR research + knowledge base
 - Every claim sourced, labeled, or flagged
@@ -75,30 +75,30 @@ This pipeline enforces all three. Systematically. Every time.
 
 ### Key Differentiators
 
-**1. Knowledge-First, Not Prompt-First**
+**🧠 1. Knowledge-First, Not Prompt-First**
 > Most tools start with a prompt. This pipeline starts with your actual research — URLs, PDFs, internal playbooks. The scraper ingests, scores authority (0-100), extracts topics via TF-IDF, and builds a structured knowledge ledger. Content is grounded in your evidence, not general AI training data.
 
-**2. Evidence as a Hard Requirement**
+**🔬 2. Evidence as a Hard Requirement**
 > The pipeline treats unsourced claims like bugs. Step 4 extracts every factual claim and either matches it to a source, or labels it `[Needs source]`, `[Hypothesis]`, or `[Verified]`. A Citation TODO list tracks what's missing. No claim ships unaccounted for.
 
-**3. Three-Gate Human Governance**
+**🛡️ 3. Three-Gate Human Governance**
 > Agents propose. Humans decide. Three checkpoints require explicit approval:
 > - **Outline lock** (Step 2) — structure approved before any prose is written
 > - **Editorial QA** (Step 6) — 10-category PASS/FAIL checklist
 > - **Publish approval** (Step 8) — explicit APPROVE / REQUEST CHANGES decision
 
-**4. GEO-Engineered Structure**
+**📐 4. GEO-Engineered Structure**
 > Every section opens with a standalone answer sentence. Content is chunked at H2/H3 every 200-400 words. Tables have headers and captions. Lists are parallel and actionable. Definitions appear once and are reused consistently. This isn't formatting — it's engineering content for extraction by generative systems.
 
-**5. Built-In Authority Scoring**
+**📊 5. Built-In Authority Scoring**
 > The scraper classifies every source (academic, research, documentation, news, blog, opinion) and scores authority based on domain, content quality indicators, and metadata completeness. Your knowledge ledger shows exactly what you're building on.
 
-**6. Post-Publish Lifecycle**
+**🔄 6. Post-Publish Lifecycle**
 > Most pipelines stop at "publish." This one continues with post-publish verification (links, rendering, social previews) and maintenance scheduling (volatile section tracking, refresh triggers, decay indicators). Content authority compounds over time — but only if maintained.
 
 ---
 
-## The 10-Step Workflow
+## 🔟 The 10-Step Workflow
 
 ```
  STEP 0        STEP 1        STEP 2        STEP 3        STEP 4
@@ -141,7 +141,7 @@ This pipeline enforces all three. Systematically. Every time.
 
 ---
 
-## Two Ways to Run It
+## 🔀 Two Ways to Run It
 
 This repo ships with two parallel interfaces. Same workflow. Same knowledge base. Same output.
 
@@ -172,7 +172,7 @@ Open in Claude Code → @content-lead Start the pipeline for [topic]
 
 ---
 
-## Quick Start
+## ⚙️ Quick Start
 
 ### 1. Clone and setup
 
@@ -213,7 +213,7 @@ Or open directly in your preferred platform:
 
 ---
 
-## The Scraper
+## 🕷️ The Scraper
 
 A Python CLI that transforms raw sources into structured knowledge.
 
@@ -241,7 +241,7 @@ python3 scraper/knowledge_ledger_agent.py --urls "https://..." --folder input/do
 
 ---
 
-## Project Structure
+## 🗂️ Project Structure
 
 ```
 geo-content-pipeline/
@@ -286,7 +286,7 @@ geo-content-pipeline/
 
 ---
 
-## Requirements
+## 📋 Requirements
 
 - **Python 3.8+** (for the scraper)
 - **One of:**
@@ -295,7 +295,7 @@ geo-content-pipeline/
 
 ---
 
-## Documentation
+## 📚 Documentation
 
 | Doc | What's In It |
 |-----|-------------|
@@ -306,7 +306,7 @@ geo-content-pipeline/
 
 ---
 
-## Design Principles
+## 💡 Design Principles
 
 > **Structure precedes prose.** Outline is locked before writing begins.
 >
