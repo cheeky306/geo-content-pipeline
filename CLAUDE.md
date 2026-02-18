@@ -43,7 +43,7 @@ The `content-lead` agent orchestrates a team of 5 specialists. Start by asking t
 2. **content-writer** — Frame topic, design outline, generate draft (Steps 1-3)
 3. **evidence-optimizer** — Integrate citations, optimize for GEO/AEO (Steps 4-5)
 4. **editorial-qa** — Run editorial QA checklist, PASS/FAIL verdict (Step 6)
-5. **publisher** — Generate Ghost card, request approval, verify, schedule maintenance (Steps 7-10)
+5. **publisher** — Generate publishing card, request approval, verify, schedule maintenance (Steps 7-10)
 
 ## Key Rules
 

@@ -109,7 +109,7 @@ Reference `CLAUDE.md` for project-level instructions.
 - **Output:** PASS/FAIL verdict with fix list
 - **Checkpoint:** If FAIL, fixes are applied and QA re-runs
 
-### Step 7: Ghost Publishing Card
+### Step 7: Publishing Card
 - **Input:** QA-approved draft
 - **Output:** Complete publishing specification
 - **Checkpoint:** Verify metadata accuracy
@@ -142,6 +142,6 @@ output/
 │   ├── [slug]-v2.md                  # With citations
 │   └── [slug]-v3.md                  # GEO-optimized final
 └── publishing-cards/
-    ├── [slug]-card.md                # Ghost publishing spec
+    ├── [slug]-card.md                # Publishing spec
     └── [slug]-maintenance.md         # Maintenance schedule
 ```

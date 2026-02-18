@@ -65,7 +65,7 @@ The GEO Content Pipeline is a structured workflow that transforms raw source mat
           ┌────────────────┼────────────────┐
           │                │                │
    ┌──────▼──────┐ ┌──────▼──────┐ ┌───────▼─────┐
-   │ GHOST CARD  │ │  APPROVAL   │ │   VERIFY    │
+   │ PUB. CARD   │ │  APPROVAL   │ │   VERIFY    │
    │  (Step 7)   │ │  (Step 8)   │ │  (Step 9)   │
    └─────────────┘ └─────────────┘ └──────┬──────┘
                                           │

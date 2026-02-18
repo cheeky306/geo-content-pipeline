@@ -209,8 +209,8 @@
       }
     ]
   },
-  "ghost_publishing_card": {
-    "name": "Ghost Publishing Card Template",
+  "publishing_card": {
+    "name": "Publishing Card Template",
     "fields": [
       {
         "field": "Title",
@@ -242,7 +242,7 @@
           "Final draft reviewed for typos",
           "All inline citations link to live sources",
           "All internal links verified",
-          "Markdown previewed in Ghost",
+          "Markdown previewed in CMS",
           "Mobile rendering checked",
           "Feature image optimized",
           "All placeholder links resolved"
@@ -308,7 +308,7 @@
     "template_name": "Handshake Blog Post (GEO/AEO)",
     "template_version": "1.0.0",
     "content_type": "blog",
-    "ghost": {
+    "cms": {
       "post_type": "post",
       "settings": {
         "title": "{{TITLE}}",

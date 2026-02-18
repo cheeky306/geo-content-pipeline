@@ -1,16 +1,16 @@
 ---
-description: Generate publishing specification card for Ghost CMS. Compiles metadata, tags, excerpt, feature image guidance, checklists. Ready for copy/paste publishing.
+description: Generate publishing specification card for your CMS. Compiles metadata, tags, excerpt, feature image guidance, checklists. Ready for copy/paste publishing.
 ---
 
-# STEP 7 — Ghost Publishing Card Generation
+# STEP 7 — Publishing Card Generation
 
 ## Overview
 
-Ghost Publishing Card Generation creates a compact, machine-readable publishing specification that makes going live fast and mistake-proof. The publishing card is a single reference containing all metadata, tags, settings, and publishing instructions in one place.
+Publishing Card Generation creates a compact, machine-readable publishing specification that makes going live fast and mistake-proof. The publishing card is a single reference containing all metadata, tags, settings, and publishing instructions in one place.
 
-Ghost is your publishing platform (or this process adapts to your CMS). The card ensures that whoever publishes the piece uses consistent metadata, correct tags, proper formatting, and follows the right pre-and-post-publish steps. It removes ambiguity and prevents common publishing errors.
+The card format was originally designed for Ghost CMS but works with any publishing platform. The card ensures that whoever publishes the piece uses consistent metadata, correct tags, proper formatting, and follows the right pre-and-post-publish steps. It removes ambiguity and prevents common publishing errors.
 
-This step takes the final approved draft from Step 6 and translates it into actionable publishing instructions. The card is a template that can be copied directly into Ghost (or your CMS) with no guessing or interpretation required.
+This step takes the final approved draft from Step 6 and translates it into actionable publishing instructions. The card is a template that can be copied directly into your CMS with no guessing or interpretation required.
 
 Expect this step to take 10-15 minutes. Most of the data has been defined in earlier steps; this step just compiles it into a clean format.
 
@@ -40,7 +40,7 @@ Also required:
 1. Extract title:
    * Pull approved title from draft
    * Verify title is in H1 format in Markdown
-   * Format for Ghost: remove Markdown syntax (#)
+   * Format for CMS: remove Markdown syntax (#)
    * Example: "# How to Write Product Descriptions AI Agents Can Parse" → Title: "How to Write Product Descriptions AI Agents Can Parse"
 
 2. Extract and format slug:
@@ -61,7 +61,7 @@ Also required:
      * One content type tag ([#blog] or [#guide])
      * One topic tag (geo, aeo, ai-seo, ai-citations, eeat-ai)
      * One pillar tag ([#p-geo], [#p-aeo], etc.)
-   * Format for Ghost: comma-separated, no brackets
+   * Format for CMS: comma-separated, no brackets
    * Example: "#blog, aeo, #p-aeo"
 
 5. Compile metadata:
@@ -94,7 +94,7 @@ Also required:
    * Final draft review: read through once more for typos/errors
    * Verify all links are live (no 404s)
    * Confirm all inline citations link to sources
-   * Preview in Ghost: render and check formatting
+   * Preview in CMS: render and check formatting
    * Test on mobile: ensure readability on small screens
    * Verify feature image is optimized and formatted
 
@@ -111,11 +111,11 @@ Also required:
 
 The copilot produces:
 
-* Ghost Publishing Card (formatted for easy copy/paste):
+* Publishing Card (formatted for easy copy/paste):
 
 ```
 ═══════════════════════════════════════════════════
-GHOST PUBLISHING CARD
+PUBLISHING CARD
 ═══════════════════════════════════════════════════
 
 BASIC METADATA
@@ -133,7 +133,7 @@ Content Type: [#blog or #guide]
 Topic: [geo/aeo/ai-seo/ai-citations/eeat-ai]
 Pillar: [#p-geo, #p-aeo, etc.]
 
-Tags (for Ghost): [paste comma-separated]
+Tags (for CMS): [paste comma-separated]
 
 CANONICAL & ROUTING
 
@@ -174,11 +174,11 @@ PRE-PUBLISH CHECKLIST
 □ Final draft reviewed for typos/errors
 □ All inline citations link to live sources
 □ All internal links verified (no 404s expected)
-□ Markdown previewed in Ghost
+□ Markdown previewed in CMS
 □ Mobile rendering checked
 □ Feature image is optimized and final
 □ All placeholder links resolved
-□ Tags confirmed in Ghost system
+□ Tags confirmed in CMS
 
 ═══════════════════════════════════════════════════
 
@@ -242,7 +242,7 @@ Make any final adjustments to excerpt, tags, or feature image guidance.
 
 Once approved, the card is distributed to:
 
-* Publishing team (who will enter metadata into Ghost)
+* Publishing team (who will enter metadata into CMS)
 * Content manager (who will verify pre-publish checklist)
 * QA team (who will verify post-publish checklist)
 * Analytics team (tracking performance against success criteria)
@@ -250,7 +250,7 @@ Once approved, the card is distributed to:
 
 ### Customization for Different CMS
 
-This workflow assumes Ghost, but adapts to:
+The card format was designed around Ghost CMS but adapts to any platform:
 
 * WordPress: Tags → Categories, Custom Fields → Advanced Custom Fields
 * Medium: Tags → Topics, Metadata → Publication settings

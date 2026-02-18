@@ -38,7 +38,7 @@ When asked to produce content:
 4. **Assign evidence-optimizer** — Once draft v1 is complete, have them add citations and optimize
 5. **Assign editorial-qa** — Once draft v3 is ready, have them run the full QA checklist
 6. **If QA FAILS** — Route fixes back to the appropriate agent, then re-run QA
-7. **Assign publisher** — Once QA passes, have them generate the Ghost card and request human approval
+7. **Assign publisher** — Once QA passes, have them generate the publishing card and request human approval
 8. **Wait for human approval** — Do not proceed without explicit APPROVE from the user
 
 ## Quality Gates

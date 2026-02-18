@@ -22,7 +22,7 @@ Finalized assets from Steps 6 and 7:
 
 * QA PASS verdict
 * Final draft v3 (optimized, sourced, and QA-approved)
-* Ghost Publishing Card (complete and ready)
+* Publishing Card (complete and ready)
 * All revisions applied
 * No outstanding issues
 

@@ -4,7 +4,7 @@ A production-grade pipeline for generating evidence-backed, GEO/AEO-optimized co
 
 ```
 URLs + Documents  ──►  Knowledge Ledger  ──►  10-Step Pipeline  ──►  Publish-Ready Content
-                         (scraper)           (agents)                (Markdown + Ghost Card)
+                         (scraper)           (agents)                (Markdown + Publishing Card)
 ```
 
 ## Architecture
@@ -33,7 +33,7 @@ URLs + Documents  ──►  Knowledge Ledger  ──►  10-Step Pipeline  ─�
 │                         │  Step 4:  Evidence & Citations   │    │
 │                         │  Step 5:  GEO Optimization       │    │
 │                         │  Step 6:  Editorial QA           │──► │
-│                         │  Step 7:  Ghost Publishing Card  │    │
+│                         │  Step 7:  Publishing Card  │    │
 │                         │  Step 8:  Human Approval         │    │
 │                         │  Step 9:  Post-Publish Verify    │    │
 │                         │  Step 10: Maintenance Schedule   │    │
@@ -125,7 +125,7 @@ Open the repo and follow the steps in `CLAUDE.md`.
 | 4 | Evidence & Citation Pass | Source all claims, build citation TODO list |
 | 5 | GEO Optimization | Optimize for extraction: chunking, answer-first, tables |
 | 6 | Editorial QA | PASS/FAIL quality gate across 10 categories |
-| 7 | Ghost Publishing Card | Generate publishing metadata and checklists |
+| 7 | Publishing Card | Generate publishing metadata and checklists |
 | 8 | Human Approval | Explicit APPROVE/REQUEST CHANGES decision |
 | 9 | Post-Publish Verification | Test live rendering, links, metadata |
 | 10 | Maintenance Scheduling | Set review dates, track volatile sections |

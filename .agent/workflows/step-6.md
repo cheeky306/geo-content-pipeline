@@ -225,4 +225,4 @@ If more than 5 critical fixes are required, stop and escalate to human for decis
 
 ## Next Step
 
-Once QA is PASS and all fixes are applied, proceed to **STEP 7 — Ghost Publishing Card Generation**. call/step-7
+Once QA is PASS and all fixes are applied, proceed to **STEP 7 — Publishing Card Generation**. call/step-7

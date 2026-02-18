@@ -31,7 +31,7 @@ Blogs MUST have exactly one pillar mapping internal tag:
 
 Slugs: lowercase, hyphenated, no dates.
 
-Output must include a Ghost Publishing Card reflecting these rules.
+Output must include a Publishing Card reflecting these rules.
 
 ## 2) Structure Rules (Hard)
 
@@ -85,7 +85,7 @@ Output must include a Ghost Publishing Card reflecting these rules.
 
 - Output must be valid Markdown.
 - Use headings consistently (no skipping H2→H4).
-- Include a final "Ghost Publishing Card" with:
+- Include a final "Publishing Card" with:
   - title
   - slug
   - excerpt

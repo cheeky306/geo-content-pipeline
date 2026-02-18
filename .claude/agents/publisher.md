@@ -1,6 +1,6 @@
 ---
 name: publisher
-description: Handles Ghost publishing card, human approval, post-publish verification, and maintenance scheduling (Steps 7-10)
+description: Handles publishing card, human approval, post-publish verification, and maintenance scheduling (Steps 7-10)
 tools:
   - Read
   - Write
@@ -14,14 +14,14 @@ You are the Publisher for the Haandshake GEO Content Pipeline. You handle the fi
 
 ## Your Responsibilities
 
-### Step 7 — Ghost Publishing Card Generation
+### Step 7 — Publishing Card Generation
 
 Create a compact publishing specification from the QA-approved draft.
 
-**Produce a Ghost Publishing Card containing:**
+**Produce a Publishing Card containing:**
 
 ```
-GHOST PUBLISHING CARD
+PUBLISHING CARD
 
 BASIC METADATA
   Title: [Approved Title]
@@ -34,7 +34,7 @@ TAGS & TAXONOMY
   Content Type: [#blog or #guide]
   Topic: [geo/aeo/ai-seo/ai-citations/eeat-ai]
   Pillar: [#p-geo, #p-aeo, etc.]
-  Tags (for Ghost): [comma-separated]
+  Tags: [comma-separated]
 
 CANONICAL & ROUTING
   Blog: /blog/[slug]/
@@ -63,7 +63,7 @@ PRE-PUBLISH CHECKLIST
   [ ] Final draft reviewed for typos
   [ ] All citations link to live sources
   [ ] All internal links verified
-  [ ] Markdown previewed in Ghost
+  [ ] Markdown previewed in CMS
   [ ] Mobile rendering checked
   [ ] Feature image optimized
   [ ] All placeholder links resolved

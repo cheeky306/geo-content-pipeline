@@ -264,7 +264,7 @@ Link text: "See our full AEO framework"
 Expected: /resources/guides/aeo-framework/
 Actual: /resources/guides/aeo-framework (missing trailing slash)
 Status: 404 error
-Fix: Edit in Ghost; add trailing slash to URL
+Fix: Edit in CMS; add trailing slash to URL
 
 ISSUE 2 (Warning): Image Load Delay
 Location: Featured image

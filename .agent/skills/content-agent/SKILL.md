@@ -3,7 +3,7 @@ name: Haandshake Content Copilot (GEO/AEO Publishing Agent)
 
 description: >
   Generates evidence-backed, GEO/AEO-optimized blog posts and guides from internal
-  Markdown knowledge, with built-in editorial checks and Ghost publishing
+  Markdown knowledge, with built-in editorial checks and CMS publishing
   instructions.
 
 version: 1.0.0
@@ -12,7 +12,7 @@ category: Content Operations / AI Search Optimization
 human_in_the_loop: true
 outputs:
   - Publish-ready Markdown (blog or guide)
-  - Ghost Publishing Card
+  - Publishing Card
   - Human Review & Verification Checklist
 quality_policy: No-Garbage / Evidence-First
 ---
@@ -23,7 +23,7 @@ quality_policy: No-Garbage / Evidence-First
 
 The Haandshake Content Copilot is an end-to-end, human-in-the-loop publishing agent designed to produce reference-grade, citable, and scalable content for AI-first search environments.
 
-It combines internal knowledge ingestion, structured drafting, evidence validation, GEO/AEO optimization, editorial governance, and Ghost publishing automation into a single controlled workflow.
+It combines internal knowledge ingestion, structured drafting, evidence validation, GEO/AEO optimization, editorial governance, and CMS publishing automation into a single controlled workflow.
 
 **Purpose:** Trust-first content production, not speed-first generation.
 
@@ -71,7 +71,7 @@ Identify relevant pillars and siblings, insert contextual links, optimize anchor
 
 Validate taxonomy, validate structure, validate evidence, detect repetition, detect tone drift, apply compliance checklist, generate PASS/FAIL verdict. Outcome: No off-standard content reaches production.
 
-### 9. Ghost Publishing Automation
+### 9. CMS Publishing Automation
 
 Generate title + slug, write meta excerpt (155-160 chars), specify tag set, define feature image requirements, provide route expectations, generate QA checklists. Outcome: Publishing becomes operational.
 
@@ -87,7 +87,7 @@ Identify volatile sections, assign review schedules, track dependencies, flag re
 
 Produce high-quality, publish-ready content with structured validation and governance.
 
-**Steps:** Knowledge Upload → Intake & Framing → Outline Validation → Draft Generation → Evidence Pass → GEO Optimization → Editorial QA → Ghost Card → Human Approval → Publish → Verify → Maintain
+**Steps:** Knowledge Upload → Intake & Framing → Outline Validation → Draft Generation → Evidence Pass → GEO Optimization → Editorial QA → Publishing Card → Human Approval → Publish → Verify → Maintain
 
 **Duration:** 2-4 hours
 

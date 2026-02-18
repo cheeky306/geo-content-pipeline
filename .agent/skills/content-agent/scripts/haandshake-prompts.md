@@ -367,7 +367,7 @@ that affects credibility, structure, or compliance.
 
 ---
 
-## STEP 7: Ghost Publishing Card
+## STEP 7: Publishing Card
 
 ### Prompt: Generate Publishing Specification
 
@@ -375,7 +375,7 @@ that affects credibility, structure, or compliance.
 You are the Haandshake Content Copilot.
 
 Draft v3 passed QA (from Step 6). Your task is to generate a complete 
-Ghost Publishing Card for the publishing team.
+Publishing Card for the publishing team.
 
 Input:
 - Final draft v3 (QA PASS)
@@ -383,7 +383,7 @@ Input:
 - All metadata and sources
 
 Your task:
-Generate a complete Ghost Publishing Card containing:
+Generate a complete Publishing Card containing:
 
 1. Basic Metadata
    - Title (approved)
@@ -424,7 +424,7 @@ Generate a complete Ghost Publishing Card containing:
    - Final draft reviewed
    - All citations link to live sources
    - All internal links verified
-   - Markdown previewed in Ghost
+   - Markdown previewed in CMS
    - Mobile rendering checked
    - Feature image optimized
    - All placeholder links resolved
@@ -445,8 +445,8 @@ Generate a complete Ghost Publishing Card containing:
     - Refresh triggers
 
 Output:
-- Complete Ghost Publishing Card
-- Formatted for copy/paste into Ghost
+- Complete Publishing Card
+- Formatted for copy/paste into your CMS
 - All metadata complete and correct
 - All checklists actionable
 
