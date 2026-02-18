@@ -211,7 +211,7 @@ geo-content-pipeline/
 
 ## Built By
 
-[Haandshake](https://haandshake.com) — Research-driven GEO/AEO agency. We engineer authority in generative and answer-first search environments.
+Built by [Jordian Farahani](https://www.linkedin.com/in/jordianfarahani/) at [Haandshake](https://haandshake.com) — Research-driven GEO/AEO agency. We engineer authority in generative and answer-first search environments.
 
 ## License
 
